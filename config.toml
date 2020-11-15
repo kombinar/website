@@ -1,4 +1,29 @@
 baseURL = "https://kombinar.xyz/"
 languageCode = "en-us"
-title = "Kombinar"
+title = "kombinar"
 theme = "etch"
+
+
+[params]
+  description = "The art of solving problems in unusual ways"
+  dark = "on"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    title = "projects"
+    url = "/projects/"
+    weight = 10
+
+
+[permalinks]
+  posts = "/:title/"
